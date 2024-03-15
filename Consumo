@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main () {
+
+   double distancia, gasosa, consumo;
+
+   printf("Distancia percorrida: ");
+   scanf("%lf", &distancia);
+   printf("Combustivel gasto: ");
+   scanf("%lf", &gasosa);
+
+   consumo = distancia / gasosa;
+
+   printf("Comsumo medio = %.3lf", consumo);
+
+   return 0;
+}
