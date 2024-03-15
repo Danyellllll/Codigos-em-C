@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+int main () {
+
+   double a, b, c, quadrado, trapezio, triangulo;
+
+   printf("Digite a medida A: ");
+   scanf("%lf", &a);
+   printf("Digite a medida B: ");
+   scanf("%lf", &b);
+   printf("Digite a medida B: ");
+   scanf("%lf", &c);
+
+   quadrado = a * a;
+   triangulo = (a * b) / 2;
+   trapezio = ((a + b) * c) / 2;
+
+   printf("Area do quadrado = %.4lf\n", quadrado);
+   printf("Area do triangulo = %.4lf\n", triangulo);
+   printf("Area do trapezio = %.4lf\n", trapezio);
+
+   return 0;
+}
