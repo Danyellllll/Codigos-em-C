@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main () {
+
+    int min, valor;
+
+    printf("Digite a quantidade de minutos: ");
+    scanf("%d", &min);
+
+    if (min == 100 || min < 100){
+        printf("Valor a pagar: R$ 50.00 ");
+    }
+    else{
+        valor = ((min - 100) * 2) + 50;
+        printf("Valor a pagar: R$ %i.00", valor);
+    }
+
+    return 0;
+}
