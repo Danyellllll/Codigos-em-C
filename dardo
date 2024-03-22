@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+
+int main () {
+
+    double x, y, z;
+
+    printf("Digite as 3 distancias:\n");
+    scanf("%lf", &x);
+    scanf("%lf", &y);
+    scanf("%lf", &z);
+
+    if (x > y && x > z) {
+        printf("Maior Distancia = %.2lf", x);
+    }
+    else if (y > z){
+        printf("Maior Distancia = %.2lf", y);
+    }
+    else{
+        printf("Maior Distancia = %.2lf", z);
+    }
+    return 0;
+}
