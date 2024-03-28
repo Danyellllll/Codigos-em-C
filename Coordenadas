@@ -3,7 +3,7 @@
 
 int main () {
 
-    double x, y, z;
+    double x, y;
 
    printf("Valor de X: ");
    scanf("%lf", &x);
