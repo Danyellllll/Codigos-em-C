@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+
+int main () {
+
+    double c, q, v;
+
+    printf("Codigo do produto comprado: ");
+    scanf("%lf", &c);
+    printf("Quantidade Comprada: ");
+    scanf("%lf", &q);
+
+    if(c == 1){
+       v = q * 5;
+    }
+    else if (c == 2){
+        v = q * 3.5;
+    }
+    else if(c == 3){
+        v = q * 4.8;
+    }
+    else if(c == 4){
+        v = q * 8.9;
+    }
+    else if(c == 4){
+        v = q * 7.32;
+    }
+
+    printf("Valor a pagar: R$ %.2lf", v);
+    return 0;
+}
